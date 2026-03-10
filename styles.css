@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --NavColor: #323232;
+    --NameColor: #1f1f1f;
+    --NameText: "Average Sans", sans-serif;
+    --NavText: "Oswald", sans-serif;
+    --heroPcolor: #606060;
+    --heroPtext: "Montserrat", sans-serif;
+    --bgcolor: #ffffff;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 12vh;
+    width: 100%;
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 5rem;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+}
+
+header h1 {
+    font-family: var(--NameText);
+    color: var(--NameColor);
+    font-size: 1.1rem;
+    font-weight: bolder;
+
+}
+
+header h1 a {
+    text-decoration: none;
+}
+header h1 a span {
+    color: rgb(249, 74, 16);
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+
+nav ul li {
+   list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: var(--NavText);
+    font-size: 1rem;
+    color: var(--NavColor);
+    font-weight: bold;
+}
+
+.fa solid {
+    color: var(--NameColor);
+    font-size: 7rem;
+    background-color: yellow;
+}
+
+#hero-section {
+    height: 120vh;
+    width: 100%;
+    background-color: var(--bgcolor);
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+    align-items: center;
+    position: relative;
+}
+
+#hero-section img {
+    height: 80vh;
+    width: 90%;
+}
+
+#hero-section p {
+    font-family: var(--heroPtext);
+    font-size: 2rem;
+    color: var(--heroPcolor);
+    font-weight: 300;
+    /*text-align: center;*/
+    position: absolute;
+    bottom: 3rem;
+    left: 23rem;
+}
+
+#hero-section p span {
+    margin-left: 6.7rem;
+}
+
+#Watch {
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+    position: relative;
+}
+
+#Watch h1 {
+    font-family: var(--NavText);
+    font-size: 2.5rem;
+    color: white;
+}
+
+#Watch p {
+    font-family: var(--NameText);
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    top: 11rem;
+    left: 13rem;
+}
+
+#Watch img {
+    height: 80vh;
+    width: 90%;
+}

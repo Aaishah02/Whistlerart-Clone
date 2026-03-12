@@ -13,6 +13,8 @@
     --heroPcolor: #606060;
     --heroPtext: "Montserrat", sans-serif;
     --bgcolor: #ffffff;
+    --thirdSection: #eeeeee;
+    --consultcolor: #ef4f79;
 }
 
 body {
@@ -136,3 +138,104 @@ nav ul li a {
     height: 80vh;
     width: 90%;
 }
+
+#consult-cont {
+    height: 50vh;
+    width: 100%;
+    background-color: var(--thirdSection);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+#consult-cont h1 {
+    font-family: var(--NavText);
+    font: 2rem;
+    font-weight: bold;
+    color: var(--NameColor);
+}
+
+#consult-cont p {
+    font-family: var(--NameText);
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: var(--NameColor);
+}
+
+
+#consult-cont p span {
+
+}
+
+#consult-cont h2 {
+    font-family: var(--NavText);
+    color: var(--consultcolor);
+    font-size: 1.2rem;
+}
+
+#consult-cont h2 p {
+    font-size: 3rem;
+}
+
+#Just-In {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+#Just-In h1 {
+    font-family: var(--NavText);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--NavColor);
+}
+
+#Just-In p {
+    font-family: var(--NameText);
+    font-size: 1.5rem;
+    color: var(--NavColor);
+}
+
+.Just-In-display {
+    flex: 1;
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Display {
+    flex: 1;
+    height: 50vh;
+    width: 80%;
+}
+
+.Display-item1 {
+    height: 60vh;
+    width: 90%;
+    /*background-color: black;*/
+    gap: 10px;
+    padding: 10px 16px;
+}
+
+.Display-item1 img {
+    height: 50vh;
+    width: 90%;
+}
+
+
+
+#Artists {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+

@@ -165,10 +165,6 @@ nav ul li a {
 }
 
 
-#consult-cont p span {
-
-}
-
 #consult-cont h2 {
     font-family: var(--NavText);
     color: var(--consultcolor);
@@ -188,6 +184,7 @@ nav ul li a {
     align-items: center;
     gap: 2rem;
     padding: 4rem 0;
+    position: relative;
 }
 
 #Just-In h1 {
@@ -215,7 +212,7 @@ nav ul li a {
 .Display {
     flex: 1;
     height: 50vh;
-    width: 80%;
+    width: 50%;
 }
 
 .Display-item1 {
@@ -227,15 +224,89 @@ nav ul li a {
 }
 
 .Display-item1 img {
-    height: 50vh;
+    height: 40vh;
     width: 90%;
 }
 
+.Display-item2 {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.Display-item2 h2 {
+    font-family: var(--NavText);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--NameColor);
+}
+
+.Display-item2 h3 {
+      font-family: var(--NameText);
+      font-size: 1rem;
+      font-weight: bold;
+      color: #9f0027;
+}
+
+.Display-item2 h4 {
+    font-family: var(--NameText);
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--NameColor);
+}
+
+.Display-item2 h5 {
+    font-family: var(--NameText);
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--NameColor);
+}
 
 
 #Artists {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
-    background-color: blue;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 5rem;
 }
 
+#Artists h1 {
+    font-family: var(--NavText);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--NameColor);
+}
+
+ .Featured {
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.Featured div {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    /*row-gap: 5px;
+    column-gap: 10px;*/
+}
+
+.Featured img {
+    height: 40vh;
+    width: 100%;
+}
+
+.Featured p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--NameColor);
+}

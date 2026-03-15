@@ -72,7 +72,7 @@ nav ul li a {
 
 .fa solid {
     color: var(--NameColor);
-    font-size: 7rem;
+    font-size: 5rem;
     background-color: yellow;
 }
 
@@ -294,19 +294,157 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 25px;
-    /*row-gap: 5px;
-    column-gap: 10px;*/
+    row-gap: 5px;
+    column-gap: 10px;
 }
 
 .Featured img {
     height: 40vh;
-    width: 100%;
+    width: 90%;
 }
 
 .Featured p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--NavText);
     font-size: 1rem;
     font-weight: bold;
     color: var(--NameColor);
+}
+
+#More {
+    height: 180vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    position: relative;
+}
+
+#More button {
+    padding: 20px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#More h1 {
+    font-family: var(--NavText);
+    color: var(--NameColor);
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 12rem;
+}
+
+.Arts {
+    height: 140vh;
+    width: 90%;
+    /*background-color: blue;*/
+    position: absolute;
+    top: 17rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 15px;
+    padding: 2rem 3rem;
+}
+
+.Arts img {
+    height: 40vh;
+    width: 100%;
+}
+
+.Arts p {
+    font-family: var(--NavText);
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--NameColor);
+    text-align: center;
+}
+
+#WhistlerGallery {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bgcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+}
+
+#WhistlerGallery h1 {
+    font-family: var(--NavText);
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--NameColor);
+    position: absolute;
+    top: 5.5rem;
+}
+
+#WhistlerGallery p {
+    font-family: var(--NameText);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--heroPcolor);
+    position: absolute;
+    top: 10.5rem;
+}
+
+#WhistlerGallery h2 {
+    font-family: var(--NameText);
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--heroPcolor);
+    position: absolute;
+    top: 14rem;
+}
+
+#WhistlerGallery h4 {
+    align-items: center;
+    position: absolute;
+    top: 19rem;
+    font-family: var(--NameText);
+    color: var(--heroPcolor);
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 9rem;
+    gap: 2.5rem;
+}
+
+#Off-Piste {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bgcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+
+#Off-Piste h1 {
+    font-family: var(--NavText);
+    color: var(--NameColor);
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.Buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.Buttons button {
+    font-family: var(--NavText);
+    font-size: 1rem;
+    color: var(--bgcolor);
+    border: none;
+    background-color: black;
+    padding: 10px 20px;
 }
